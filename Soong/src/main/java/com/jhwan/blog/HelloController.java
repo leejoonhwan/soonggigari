@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 @RestController
 public class HelloController {
 
-	@RequestMapping("/")
+	@RequestMapping("/start")
 	public ModelAndView index(){
 		ModelAndView mav = new ModelAndView();
 		mav.setViewName("/home");
